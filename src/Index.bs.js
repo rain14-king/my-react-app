@@ -25,7 +25,10 @@ function makeContainer(text) {
   return content;
 }
 
-ReactDom.render(React.createElement(RandomSquare$MyReactApp.make, {}), makeContainer("Name: Xingyu Wang"));
+ReactDom.render(React.createElement(RandomSquare$MyReactApp.make, {
+          x: 3,
+          y: 3
+        }), makeContainer("Name: Xingyu Wang"));
 
 exports.style = style;
 exports.makeContainer = makeContainer;

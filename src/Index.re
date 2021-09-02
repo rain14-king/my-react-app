@@ -28,6 +28,6 @@ let makeContainer = text => {
 };
 
 ReactDOMRe.render(
-  <RandomSquare />,
+  <RandomSquare x=3 y=3 />,
   makeContainer("Name: Xingyu Wang"),
 );
